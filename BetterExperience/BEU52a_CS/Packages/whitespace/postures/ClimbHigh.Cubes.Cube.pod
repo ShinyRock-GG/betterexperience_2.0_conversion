@@ -1,0 +1,6 @@
+{
+  "DisplayName": "Climb the cube",
+  "CancelDisplayName": "Get down",
+  "Orientation": "UNIVERSAL",
+  "Deleted": false
+}

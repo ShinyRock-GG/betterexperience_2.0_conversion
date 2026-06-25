@@ -1,0 +1,7 @@
+{
+  "Type": "transition",
+  "SupportsTransitions": [],
+  "DisplayName": "Walk",
+  "CancelDisplayName": "Un-Walk",
+  "RootMotionType": "HipForward"
+}

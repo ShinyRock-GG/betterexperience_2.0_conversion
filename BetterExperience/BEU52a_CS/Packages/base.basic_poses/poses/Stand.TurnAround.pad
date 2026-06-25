@@ -1,0 +1,7 @@
+{
+  "Type": "transition",
+  "SupportsTransitions": [],
+  "DisplayName": "TurnAround",
+  "CancelDisplayName": "Un-TurnAround",
+  "RootMotionType": "None"
+}

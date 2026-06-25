@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Better_Scene", "Better_Scene\Better_Scene.csproj", "{A0B87A1A-9C8B-431C-9205-23BDFB47B9D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterExperience", "BetterExperience\BetterExperience.csproj", "{258C5364-3D95-4A2D-83D9-E4E0E7E33465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Better_Story", "Better_Story\Better_Story.csproj", "{BD8BBA9B-9615-49DD-A54D-4AE395AA56E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Better_Cloth", "Better_Cloth\Better_Cloth.csproj", "{714EB4BB-E2BD-4A6F-B60F-F1B23C3DE2E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0B87A1A-9C8B-431C-9205-23BDFB47B9D2}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{A0B87A1A-9C8B-431C-9205-23BDFB47B9D2}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{A0B87A1A-9C8B-431C-9205-23BDFB47B9D2}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{A0B87A1A-9C8B-431C-9205-23BDFB47B9D2}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{258C5364-3D95-4A2D-83D9-E4E0E7E33465}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{258C5364-3D95-4A2D-83D9-E4E0E7E33465}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{258C5364-3D95-4A2D-83D9-E4E0E7E33465}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{258C5364-3D95-4A2D-83D9-E4E0E7E33465}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{BD8BBA9B-9615-49DD-A54D-4AE395AA56E6}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{BD8BBA9B-9615-49DD-A54D-4AE395AA56E6}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{BD8BBA9B-9615-49DD-A54D-4AE395AA56E6}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{BD8BBA9B-9615-49DD-A54D-4AE395AA56E6}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{714EB4BB-E2BD-4A6F-B60F-F1B23C3DE2E4}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{714EB4BB-E2BD-4A6F-B60F-F1B23C3DE2E4}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{714EB4BB-E2BD-4A6F-B60F-F1B23C3DE2E4}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{714EB4BB-E2BD-4A6F-B60F-F1B23C3DE2E4}.Release|AnyCPU.Build.0 = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

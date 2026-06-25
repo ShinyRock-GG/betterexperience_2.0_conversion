@@ -1,0 +1,6 @@
+{
+  "DisplayName": "Animated Sit",
+  "CancelDisplayName": "Stand up",
+  "Orientation": "UNIVERSAL",
+  "Deleted": false
+}

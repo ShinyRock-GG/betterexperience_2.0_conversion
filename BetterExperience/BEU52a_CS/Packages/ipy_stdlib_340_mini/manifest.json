@@ -1,0 +1,10 @@
+{
+	"type": "asset",
+	"id": "ipy_stdlib_340_mini",
+	"name": "IronPython Python 3.4.0 stdlib subset",
+	"version": "1.0.3",
+	"description": "Python 3.4.0 based standard library subset",
+	"options":{
+		"pycs.stdlib":"true"
+	}
+}

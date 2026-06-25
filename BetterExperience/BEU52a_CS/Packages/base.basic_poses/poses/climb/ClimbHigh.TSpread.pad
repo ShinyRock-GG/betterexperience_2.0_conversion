@@ -1,0 +1,6 @@
+{
+	"Type": "transition",
+	"SupportsTransitions":[
+		{ "From": "Idle", "To": "Spread_LDBU", "Reversible": true }
+	]
+}

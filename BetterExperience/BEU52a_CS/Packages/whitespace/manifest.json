@@ -1,0 +1,11 @@
+{
+	"type": "story",
+	"id": "whitespace",
+	"name": "Whitespace",
+	"version": "1.0.0",
+	"require":{
+		"basic_poses": "1.0"
+	},
+	"mainScene": "whitespace",
+	"description": "Whitespace demo scene"
+}

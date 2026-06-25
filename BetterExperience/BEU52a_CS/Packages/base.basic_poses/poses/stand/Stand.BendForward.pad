@@ -1,0 +1,8 @@
+{
+  "Type": "pose",
+  "SupportsTransitions": [],
+  "DisplayName": "Bend Forward",
+  "CancelDisplayName": "Relax",
+  "RootMotionType": "None",
+  "Deleted": false
+}

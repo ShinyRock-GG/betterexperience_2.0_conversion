@@ -1,0 +1,11 @@
+{
+	"type": "story",
+	"id": "office_showcase",
+	"name": "Doctor's office showcase",
+	"version": "1.0.0",
+	"require":{
+		"basic_poses": "1.0"
+	},
+	"mainScene": "office",
+	"description": "Touching minigame showcase"
+}

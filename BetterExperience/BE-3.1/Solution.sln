@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterExperience", "BetterExperience\BetterExperience.csproj", "{9BDFAA49-6BDC-47EC-B4F8-98DDD9C7AE22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Better_Cloth", "Better_Cloth\Better_Cloth.csproj", "{8ABCE554-4B98-4956-8805-2EF450E33942}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BDFAA49-6BDC-47EC-B4F8-98DDD9C7AE22}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{9BDFAA49-6BDC-47EC-B4F8-98DDD9C7AE22}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{9BDFAA49-6BDC-47EC-B4F8-98DDD9C7AE22}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{9BDFAA49-6BDC-47EC-B4F8-98DDD9C7AE22}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{8ABCE554-4B98-4956-8805-2EF450E33942}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{8ABCE554-4B98-4956-8805-2EF450E33942}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{8ABCE554-4B98-4956-8805-2EF450E33942}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{8ABCE554-4B98-4956-8805-2EF450E33942}.Release|AnyCPU.Build.0 = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,228 @@
+{
+	"MusclesOverride":{
+		 "M-Hips-none": {
+          "Pin": 0.8,
+          "Spring": 1.0,
+          "Damper": 1.0,
+          "IsSupport": false,
+          "CanInteract": false,
+          "CanReact": false
+        },
+        "M-Leg-L": {
+          "Pin": 0.8,
+          "Spring": 1.0,
+          "Damper": 1.0,
+          "IsSupport": false,
+          "CanInteract": false,
+          "CanReact": false
+        },
+        "E-LeftThigh": {
+          "Pin": 0.0,
+          "Spring": 0.0,
+          "Damper": 0.0,
+          "IsSupport": false,
+          "CanInteract": false,
+          "CanReact": true
+        },
+        "M-Calf-L": {
+          "Pin": 1.0,
+          "Spring": 1.0,
+          "Damper": 1.0,
+          "IsSupport": false,
+          "CanInteract": false,
+          "CanReact": false
+        },
+        "M-Foot-L": {
+          "Pin": 1.0,
+          "Spring": 1.0,
+          "Damper": 1.0,
+          "IsSupport": false,
+          "CanInteract": false,
+          "CanReact": false
+        },
+        "E-LeftFoot": {
+          "Pin": 0.3,
+          "Spring": 0.0,
+          "Damper": 0.0,
+          "IsSupport": false,
+          "CanInteract": true,
+          "CanReact": false
+        },
+        "M-Leg-R": {
+          "Pin": 0.8,
+          "Spring": 1.0,
+          "Damper": 1.0,
+          "IsSupport": false,
+          "CanInteract": false,
+          "CanReact": false
+        },
+        "E-RightThigh": {
+          "Pin": 0.0,
+          "Spring": 0.0,
+          "Damper": 0.0,
+          "IsSupport": false,
+          "CanInteract": false,
+          "CanReact": true
+        },
+        "M-Calf-R": {
+          "Pin": 1.0,
+          "Spring": 1.0,
+          "Damper": 1.0,
+          "IsSupport": false,
+          "CanInteract": false,
+          "CanReact": false
+        },
+        "M-Foot-R": {
+          "Pin": 1.0,
+          "Spring": 1.0,
+          "Damper": 1.0,
+          "IsSupport": false,
+          "CanInteract": false,
+          "CanReact": false
+        },
+        "E-RightFoot": {
+          "Pin": 0.3,
+          "Spring": 0.0,
+          "Damper": 0.0,
+          "IsSupport": false,
+          "CanInteract": true,
+          "CanReact": false
+        },
+        "M-Spine-none": {
+          "Pin": 1.0,
+          "Spring": 3.0,
+          "Damper": 5.0,
+          "IsSupport": false,
+          "CanInteract": false,
+          "CanReact": false
+        },
+        "E-Body": {
+          "Pin": 0.7,
+          "Spring": 0.0,
+          "Damper": 0.0,
+          "IsSupport": false,
+          "CanInteract": true,
+          "CanReact": false
+        },
+        "M-Chest-none": {
+          "Pin": 0.2,
+          "Spring": 1.0,
+          "Damper": 2.0,
+          "IsSupport": false,
+          "CanInteract": false,
+          "CanReact": false
+        },
+        "M-Shoulder-L": {
+          "Pin": 0.0,
+          "Spring": 1.0,
+          "Damper": 1.0,
+          "IsSupport": false,
+          "CanInteract": false,
+          "CanReact": false
+        },
+        "M-Arm-L": {
+          "Pin": 0.0,
+          "Spring": 1.0,
+          "Damper": 1.0,
+          "IsSupport": false,
+          "CanInteract": false,
+          "CanReact": false
+        },
+        "E-LeftShoulder": {
+          "Pin": 0.0,
+          "Spring": 0.0,
+          "Damper": 0.0,
+          "IsSupport": false,
+          "CanInteract": true,
+          "CanReact": false
+        },
+        "M-ForeArm-L": {
+          "Pin": 0.0,
+          "Spring": 1.0,
+          "Damper": 1.0,
+          "IsSupport": false,
+          "CanInteract": false,
+          "CanReact": false
+        },
+        "M-Hand-L": {
+          "Pin": 0.0,
+          "Spring": 1.0,
+          "Damper": 1.0,
+          "IsSupport": false,
+          "CanInteract": false,
+          "CanReact": false
+        },
+        "E-LeftHand": {
+          "Pin": 0.0,
+          "Spring": 0.0,
+          "Damper": 0.0,
+          "IsSupport": false,
+          "CanInteract": true,
+          "CanReact": false
+        },
+        "M-Shoulder-R": {
+          "Pin": 0.0,
+          "Spring": 1.0,
+          "Damper": 1.0,
+          "IsSupport": false,
+          "CanInteract": false,
+          "CanReact": false
+        },
+        "M-Arm-R": {
+          "Pin": 0.0,
+          "Spring": 1.0,
+          "Damper": 1.0,
+          "IsSupport": false,
+          "CanInteract": false,
+          "CanReact": false
+        },
+        "E-RightShoulder": {
+          "Pin": 0.0,
+          "Spring": 0.0,
+          "Damper": 0.0,
+          "IsSupport": false,
+          "CanInteract": true,
+          "CanReact": true
+        },
+        "M-ForeArm-R": {
+          "Pin": 0.0,
+          "Spring": 1.0,
+          "Damper": 1.0,
+          "IsSupport": false,
+          "CanInteract": false,
+          "CanReact": false
+        },
+        "M-Hand-R": {
+          "Pin": 0.0,
+          "Spring": 1.0,
+          "Damper": 1.0,
+          "IsSupport": false,
+          "CanInteract": false,
+          "CanReact": false
+        },
+        "E-RightHand": {
+          "Pin": 0.0,
+          "Spring": 0.0,
+          "Damper": 0.0,
+          "IsSupport": false,
+          "CanInteract": true,
+          "CanReact": false
+        },
+        "M-Neck-none": {
+          "Pin": 0.0,
+          "Spring": 0.4,
+          "Damper": 0.5,
+          "IsSupport": false,
+          "CanInteract": false,
+          "CanReact": false
+        },
+        "M-Head-none": {
+          "Pin": 0.0,
+          "Spring": 0.4,
+          "Damper": 0.5,
+          "IsSupport": false,
+          "CanInteract": false,
+          "CanReact": false
+        }
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "Type": "pose",
+  "SupportsTransitions": [],
+  "DisplayName": "Get on your knees",
+  "CancelDisplayName": "Relax",
+  "RootMotionType": "None",
+  "Deleted": false
+}

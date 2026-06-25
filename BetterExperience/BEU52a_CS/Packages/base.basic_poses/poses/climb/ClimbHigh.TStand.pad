@@ -1,0 +1,6 @@
+{
+	"Type": "transition",
+	"SupportsTransitions":[
+		{ "From": "Stand", "To": "ClimbHigh", "Reversible": true }
+	]
+}

@@ -1,0 +1,6 @@
+{
+  "DisplayName": "Lean wall",
+  "CancelDisplayName": "Relax",
+  "Orientation": "BACK",
+  "Deleted": false
+}

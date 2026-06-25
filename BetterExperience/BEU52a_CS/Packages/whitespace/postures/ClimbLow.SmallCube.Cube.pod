@@ -1,0 +1,6 @@
+{
+  "DisplayName": "Sit on the cube",
+  "CancelDisplayName": "Stand up",
+  "Orientation": "UNIVERSAL",
+  "Deleted": false
+}

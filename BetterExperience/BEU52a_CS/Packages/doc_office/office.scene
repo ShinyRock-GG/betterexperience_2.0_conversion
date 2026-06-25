@@ -1,0 +1,24 @@
+{
+	"sequence":[
+		{ "type": "dont_destroy", "name": "Eviroment (2)/Staticos/Suelo" },
+		{ "type": "dont_destroy", "name":"Eviroment (2)/Staticos/Officina1 Variante/TranslacionTargets/GoToTarget_Original" },
+		
+		{ "type": "unload_scene", "name":"EntrevistaBase", "disabled": false },
+		{ "type": "load_scene", "name":"office:Assets/Office" },
+		
+		{ "type": "disable_go", "name":"EntrevistaSceneLogic/Control luces"},
+		{ "type": "disable_go", "name":"PlayerDesksScenaVacia/Calificacion/ColliderActivable"},
+		{ "type": "destroy_go", "name": "Eviroment (2)/Staticos/Suelo" }
+	],
+	"interview_sequence":[
+		{ "type": "disable_go", "name":"PlayerPC: Calificacion/Calificacion/ColliderActivable"},		
+	],
+	"on_scene_load":{
+		"EntrevistaHeroina":[
+			{ "type": "disable_go", "name":"PlayerPC: Calificacion/Calificacion/ColliderActivable"},
+		],
+		"EntrevistaVacia":[
+			{ "type": "disable_go", "name":"PlayerDesksScenaVacia/Calificacion/ColliderActivable"},
+		]
+	}
+}

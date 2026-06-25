@@ -1,0 +1,27 @@
+# Game installations — stay local, never push
+10.4e-immaculate-source/
+23.1/
+
+# Local build config — each dev creates their own from GameRefs.props.example
+GameRefs.props
+
+# Build outputs
+**/bin/
+**/obj/
+
+# IDE
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SSH keys
+.ssh/
+../.ssh/
+
+# DLLs (reference copies, not source)
+BetterExperience/update60e/*.dll

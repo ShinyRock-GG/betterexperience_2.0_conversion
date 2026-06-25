@@ -1,0 +1,8 @@
+{
+  "Type": "pose",
+  "SupportsTransitions": [],
+  "DisplayName": "TouchToes",
+  "CancelDisplayName": "Un-TouchToes",
+  "RootMotionType": "None",
+  "Deleted": false
+}

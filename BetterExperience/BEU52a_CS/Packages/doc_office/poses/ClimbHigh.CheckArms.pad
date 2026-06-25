@@ -1,0 +1,8 @@
+{
+  "Type": "pose",
+  "SupportsTransitions": [],
+  "DisplayName": "CheckArms",
+  "CancelDisplayName": "Un-CheckArms",
+  "RootMotionType": "None",
+  "Deleted": false
+}

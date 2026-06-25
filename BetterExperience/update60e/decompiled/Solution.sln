@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Better_Scene", "Better_Scene\Better_Scene.csproj", "{2024F0DD-D420-419E-92E1-56899E1FE14D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterExperience", "BetterExperience\BetterExperience.csproj", "{97EF11EE-642F-4FF8-8E56-4ADDB4818C92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Better_Story", "Better_Story\Better_Story.csproj", "{540FEBC9-207B-4A86-AAF5-71E14D9DDDC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Better_Cloth", "Better_Cloth\Better_Cloth.csproj", "{D57999F7-C78C-4D3E-B870-586BDAFA17AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2024F0DD-D420-419E-92E1-56899E1FE14D}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{2024F0DD-D420-419E-92E1-56899E1FE14D}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{2024F0DD-D420-419E-92E1-56899E1FE14D}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{2024F0DD-D420-419E-92E1-56899E1FE14D}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{97EF11EE-642F-4FF8-8E56-4ADDB4818C92}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{97EF11EE-642F-4FF8-8E56-4ADDB4818C92}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{97EF11EE-642F-4FF8-8E56-4ADDB4818C92}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{97EF11EE-642F-4FF8-8E56-4ADDB4818C92}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{540FEBC9-207B-4A86-AAF5-71E14D9DDDC1}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{540FEBC9-207B-4A86-AAF5-71E14D9DDDC1}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{540FEBC9-207B-4A86-AAF5-71E14D9DDDC1}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{540FEBC9-207B-4A86-AAF5-71E14D9DDDC1}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{D57999F7-C78C-4D3E-B870-586BDAFA17AC}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{D57999F7-C78C-4D3E-B870-586BDAFA17AC}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{D57999F7-C78C-4D3E-B870-586BDAFA17AC}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{D57999F7-C78C-4D3E-B870-586BDAFA17AC}.Release|AnyCPU.Build.0 = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+{
+	"type": "extension",
+	"id": "walk_demo",
+	"name": "Walk Anim",
+	"version": "2.4.0",
+	"extends": "basic_poses",
+}

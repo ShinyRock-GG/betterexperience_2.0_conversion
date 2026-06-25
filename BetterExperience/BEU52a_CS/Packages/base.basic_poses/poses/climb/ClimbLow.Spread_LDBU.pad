@@ -1,0 +1,10 @@
+{
+  "Type": "pose",
+  "SupportsTransitions": [
+	
+  ],
+  "DisplayName": "Spread your legs",
+  "CancelDisplayName": "Close your legs",
+  "RootMotionType": "None",
+  "Deleted": false
+}

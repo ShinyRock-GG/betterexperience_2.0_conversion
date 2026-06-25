@@ -1,0 +1,9 @@
+{
+  "Type": "subpose",
+  "SupportsTransitions": [
+	{ "From": "Spread_LDBU", "As":{ "DisplayName": "Raise your legs", "CancelDisplayName": "Lower your legs" } },
+	{ "From": "Spread_LUBD", "As":{ "DisplayName": "Raise your back", "CancelDisplayName": "Lower your back" } },
+  ],
+  "DisplayName": "Spread_LUBU",
+  "CancelDisplayName": "Un-Spread_LUBU"
+}

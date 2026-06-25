@@ -1,0 +1,70 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>Better_Cloth</AssemblyName>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <Import Project="$(MSBuildThisFileDirectory)..\..\..\GameRefs.props" Condition="Exists('$(MSBuildThisFileDirectory)..\..\..\GameRefs.props')" />
+
+  <PropertyGroup Condition="'$(GameDir)' == ''">
+    <GameDir>$(MSBuildThisFileDirectory)..\..\..\23.1</GameDir>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <ManagedDir>$(GameDir)\Some Modeling Agency_Data\Managed</ManagedDir>
+    <BepInExCoreDir>$(GameDir)\BepInEx\core</BepInExCoreDir>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(GameDir)' != ''">
+    <OutputPath>$(GameDir)\BepInEx\plugins\BetterExperience\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup Label="BepInEx">
+    <Reference Include="BepInEx">
+      <HintPath>$(BepInExCoreDir)\BepInEx.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(BepInExCoreDir)\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup Label="UnityEngine">
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(ManagedDir)\UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.ClothModule"><HintPath>$(ManagedDir)\UnityEngine.ClothModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.PhysicsModule"><HintPath>$(ManagedDir)\UnityEngine.PhysicsModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.AnimationModule"><HintPath>$(ManagedDir)\UnityEngine.AnimationModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.InputLegacyModule"><HintPath>$(ManagedDir)\UnityEngine.InputLegacyModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.IMGUIModule"><HintPath>$(ManagedDir)\UnityEngine.IMGUIModule.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+
+  <ItemGroup Label="SMA Game Assemblies">
+    <Reference Include="Assembly-CSharp"><HintPath>$(ManagedDir)\Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Assembly-D_C_Dependientes_ReSc"><HintPath>$(ManagedDir)\Assembly-D_C_Dependientes_ReSc.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Assembly-D_D_Characters_ReSc"><HintPath>$(ManagedDir)\Assembly-D_D_Characters_ReSc.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Assembly-D_E_Chuchi_ReSc"><HintPath>$(ManagedDir)\Assembly-D_E_Chuchi_ReSc.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Assembly-D_F_CharactersBasics_ReSc"><HintPath>$(ManagedDir)\Assembly-D_F_CharactersBasics_ReSc.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Assembly-D_ReSc"><HintPath>$(ManagedDir)\Assembly-D_ReSc.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Base.Bones"><HintPath>$(ManagedDir)\Base.Bones.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Base.Controllers"><HintPath>$(ManagedDir)\Base.Controllers.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Base.CustomMonoBehaviours"><HintPath>$(ManagedDir)\Base.CustomMonoBehaviours.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Base.Globales"><HintPath>$(ManagedDir)\Base.Globales.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Base.Npc"><HintPath>$(ManagedDir)\Base.Npc.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Base.Plugins"><HintPath>$(ManagedDir)\Base.Plugins.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Base.SingletonesAndSystemasGlobales"><HintPath>$(ManagedDir)\Base.SingletonesAndSystemasGlobales.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="TValle.BeachGirl"><HintPath>$(ManagedDir)\TValle.BeachGirl.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Base.RootMotion.BeachGirl"><HintPath>$(ManagedDir)\Base.RootMotion.BeachGirl.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Base.RootMotion"><HintPath>$(ManagedDir)\Base.RootMotion.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="TValle.BeachGirl.GpuHair"><HintPath>$(ManagedDir)\TValle.BeachGirl.GpuHair.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="GpuTools"><HintPath>$(ManagedDir)\GpuTools.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+
+</Project>

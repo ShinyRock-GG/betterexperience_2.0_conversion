@@ -1,0 +1,6 @@
+{
+  "DisplayName": "Sit on the box",
+  "CancelDisplayName": "Get down",
+  "Orientation": "UNIVERSAL",
+  "Deleted": false
+}

@@ -1,0 +1,7 @@
+{
+	"type": "extension",
+	"id": "undress_demo",
+	"name": "Undress Anim",
+	"version": "1.1.0",
+	"extends": "basic_poses",
+}

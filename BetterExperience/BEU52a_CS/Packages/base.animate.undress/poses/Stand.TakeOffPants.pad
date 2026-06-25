@@ -1,0 +1,6 @@
+{
+  "Type": "transition",
+  "SupportsTransitions": [],
+  "DisplayName": "TakeOffPants",
+  "CancelDisplayName": "Un-TakeOffPants"
+}

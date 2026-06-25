@@ -1,0 +1,20 @@
+{
+	"Mapping":{
+		"otherPants": "TakeOffPants",
+		"pants": "TakeOffPants",
+		"panties": "TakeOffPants",
+		"bra": "TakeOffBra",
+		"dress": "TakeOffDress",
+		"boots": "TakeOffBoots",
+		"socks": "TakeOffSocks"
+	},
+	"Slots":{
+		"pants": [ "ano","belly" ],
+		"panties": [ "ano"],
+		"otherPants": [ "belly" ],
+		"bra": ["hombros"],
+		"dress": [ "pectorales" ],
+		"boots": [ "pies"],
+		"socks": [ "pies", "piernas" ]
+	}
+}

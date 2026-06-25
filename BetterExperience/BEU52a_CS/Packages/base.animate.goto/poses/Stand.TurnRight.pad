@@ -1,0 +1,7 @@
+{
+  "Type": "transition",
+  "SupportsTransitions": [],
+  "DisplayName": "TurnRight",
+  "CancelDisplayName": "Un-TurnRight",
+  "RootMotionType": "HipSpin"
+}

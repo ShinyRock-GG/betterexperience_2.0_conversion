@@ -1,0 +1,8 @@
+{
+  "Type": "pose",
+  "SupportsTransitions": [],
+  "DisplayName": "Lie down on the floor",
+  "CancelDisplayName": "Stand up",
+  "RootMotionType": "None",
+  "Deleted": false
+}

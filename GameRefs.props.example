@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copy this file to GameRefs.props (gitignored) and set GameDir to your SMA 23.1 install.
+  GameRefs.props is imported by all four .csproj files.
+-->
+<Project>
+  <PropertyGroup>
+    <!-- Full path to your SMA 23.1 installation folder -->
+    <GameDir>F:\Games\AAA\better_experience_working\23.1</GameDir>
+    <!-- Full path to your SMA 10.4e installation folder (reference only) -->
+    <GameDir104>F:\Games\AAA\better_experience_working\10.4e-immaculate-source</GameDir104>
+  </PropertyGroup>
+</Project>

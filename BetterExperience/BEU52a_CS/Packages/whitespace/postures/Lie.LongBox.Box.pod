@@ -1,0 +1,7 @@
+{
+  "DisplayName": "Lie down",
+  "CancelDisplayName": "Sit up",
+  "ParentPosture": "ClimbHigh.LongBox.Box",
+  "Orientation": "UNIVERSAL",
+  "Deleted": false
+}

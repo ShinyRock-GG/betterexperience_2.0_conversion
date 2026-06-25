@@ -1,0 +1,8 @@
+{
+  "Type": "pose",
+  "SupportsTransitions": [],
+  "DisplayName": "Bend",
+  "CancelDisplayName": "Un-Bend",
+  "RootMotionType": "None",
+  "Deleted": false
+}

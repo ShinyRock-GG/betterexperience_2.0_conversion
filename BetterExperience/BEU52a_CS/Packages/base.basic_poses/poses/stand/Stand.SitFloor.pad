@@ -1,0 +1,8 @@
+{
+  "Type": "pose",
+  "SupportsTransitions": [],
+  "DisplayName": "Sit on the ground",
+  "CancelDisplayName": "Stand up",
+  "RootMotionType": "None",
+  "Deleted": false
+}

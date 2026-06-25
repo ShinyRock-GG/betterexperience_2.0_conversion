@@ -1,0 +1,6 @@
+{
+  "Type": "pose",
+  "SupportsTransitions": [],
+  "DisplayName": "Spread Legs",
+  "CancelDisplayName": "Close Legs"
+}

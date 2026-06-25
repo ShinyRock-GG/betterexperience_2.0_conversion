@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Better_Cloth</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>15.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Assembly-D_E_Chuchi_ReSc">
+      <HintPath>G:\Games\AAA\Some_Modeling_Agency_0.23.1_f1\Some Modeling Agency_Data\Managed\Assembly-D_E_Chuchi_ReSc.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>G:\Games\AAA\Some_Modeling_Agency_0.23.1_f1\Some Modeling Agency_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Base.RootMotion">
+      <HintPath>G:\Games\AAA\Some_Modeling_Agency_0.23.1_f1\Some Modeling Agency_Data\Managed\Base.RootMotion.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>G:\Games\AAA\Some_Modeling_Agency_0.23.1_f1\Some Modeling Agency_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>G:\Games\AAA\Some_Modeling_Agency_0.23.1_f1\Some Modeling Agency_Data\Managed\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="0Harmony" />
+    <Reference Include="BepInEx" />
+    <ProjectReference Include="..\BetterExperience\BetterExperience.csproj" />
+  </ItemGroup>
+</Project>

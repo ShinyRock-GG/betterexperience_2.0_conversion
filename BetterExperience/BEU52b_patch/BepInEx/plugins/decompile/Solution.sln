@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Better_Scene", "Better_Scene\Better_Scene.csproj", "{592DCB9E-AC69-4935-887E-9001116482D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Better_Story", "Better_Story\Better_Story.csproj", "{4827B336-E809-4BAA-BE6B-CFE0A44C5EC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{592DCB9E-AC69-4935-887E-9001116482D7}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{592DCB9E-AC69-4935-887E-9001116482D7}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{592DCB9E-AC69-4935-887E-9001116482D7}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{592DCB9E-AC69-4935-887E-9001116482D7}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{4827B336-E809-4BAA-BE6B-CFE0A44C5EC2}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{4827B336-E809-4BAA-BE6B-CFE0A44C5EC2}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{4827B336-E809-4BAA-BE6B-CFE0A44C5EC2}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{4827B336-E809-4BAA-BE6B-CFE0A44C5EC2}.Release|AnyCPU.Build.0 = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
