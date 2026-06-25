@@ -236,7 +236,9 @@ public class StimulusTrackingService : SessionService
 			}
 			else if (c is ICalculoDeEstimuloPorDesvestir ed)
 			{
-				HumanBodyPartsEng bodypart = (HumanBodyPartsEng)ed.partePrincipalEstimulada;
+				// partePrincipalEstimulada not exposed on ICalculoDeEstimuloPorDesvestir interface in SMA 23.1 — access via Traverse
+				ParteDelCuerpoHumano _parteDesvestida = HarmonyLib.Traverse.Create((object)ed).Property("partePrincipalEstimulada").GetValue<ParteDelCuerpoHumano>();
+				HumanBodyPartsEng bodypart = (HumanBodyPartsEng)_parteDesvestida;
 				StimulusKey key4 = new StimulusKey(StimulusType.expose, bodypart, SenderBodyPartEng.hands);
 				if (trackers.TryGetValue(key4, out var tracker4))
 				{
