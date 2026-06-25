@@ -125,16 +125,24 @@ internal class SMAGlobalPatches
 		SCENE_LOADER_STATE.LoadingScreenIsVisible = loaderScreenVisibleNow;
 	}
 
-	[HarmonyPatch(typeof(PiscinasDeNPCs), "instanciarNuevaYGuardarEnMemoria", new Type[]
+	// instanciarNuevaYGuardarEnMemoria signature changed in SMA 23.1 — find by name to avoid parameter mismatch
+	[HarmonyPatch]
+	private static class AfterNewPoolCreatedPatch
 	{
-		typeof(Guid),
-		typeof(bool),
-		typeof(TipoDeRandomizadoParaSujeto?)
-	})]
-	[HarmonyPostfix]
-	public static void AfterNewPoolCreated(PiscinaDeNpcsManager __result, Guid id, bool empty, TipoDeRandomizadoParaSujeto? tipoDeRandomizado)
-	{
-		OnNewPoolCreated.Invoke(__result);
+		[HarmonyTargetMethod]
+		static System.Reflection.MethodBase TargetMethod()
+		{
+			return typeof(PiscinasDeNPCs)
+				.GetMethods(System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance)
+				.FirstOrDefault(m => m.Name == "instanciarNuevaYGuardarEnMemoria");
+		}
+
+		[HarmonyPostfix]
+		static void Postfix(object __result)
+		{
+			if (__result is PiscinaDeNpcsManager pm)
+				OnNewPoolCreated.Invoke(pm);
+		}
 	}
 
 	[HarmonyPatch(typeof(PiscinasDeNPCs), "BorrarCompletamentePiscina")]
@@ -151,11 +159,23 @@ internal class SMAGlobalPatches
 		OnGuestClassified.Invoke(__instance, sujeto);
 	}
 
-	[HarmonyPatch(typeof(PanelComenzarATrabajar), "OnSaving")]
-	[HarmonyPrefix]
-	public static void BeforeGameSaved()
+	// PanelComenzarATrabajar.OnSaving() became event onSaving in SMA 23.1.
+	// Patch Awake to subscribe our handler to the event via reflection.
+	[HarmonyPatch]
+	private static class BeforeGameSavedPatch
 	{
-		OnBeforeSave.Invoke();
+		[HarmonyTargetMethod]
+		static System.Reflection.MethodBase TargetMethod() =>
+			typeof(PanelComenzarATrabajar).GetMethod("Awake",
+				System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+
+		[HarmonyPostfix]
+		static void Postfix(PanelComenzarATrabajar __instance)
+		{
+			var evt = typeof(PanelComenzarATrabajar).GetEvent("onSaving",
+				System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+			evt?.AddEventHandler(__instance, (Action)(() => OnBeforeSave.Invoke()));
+		}
 	}
 
 	[HarmonyPatch(typeof(HitSkin), "OnStay")]
@@ -165,9 +185,10 @@ internal class SMAGlobalPatches
 		OnContinousSkinCollision.Invoke(__instance, collision);
 	}
 
+	// RespiracionEngine param removed from VelocidadToleranciaGetter in SMA 23.1 — only keep __result
 	[HarmonyPatch(typeof(AutoSexRangosDeToleranciaCalculador), "VelocidadToleranciaGetter")]
 	[HarmonyPostfix]
-	public static void _OnComputeMaxVelocity(ref RangeValueV2 __result, float holeScale, ParteQuePuedeEstimular estimulante, IReadOnlyList<ParteDelCuerpoHumano> partesTactiles, FemalePenetracionTipo tipoDePenetracio, DolorPorToques dolorPorToques, DolorPorGolpes dolorPorGolpes, DolorPorPenetracion dolorPorPenetracion, PlacerPorToques placerPorToques, PlacerPorPenetraciones placerPorPenetraciones, RespiracionEngine respiracionEngine)
+	public static void _OnComputeMaxVelocity(ref RangeValueV2 __result)
 	{
 		UpdateRangeEvent evt = new UpdateRangeEvent();
 		evt.Range = __result;
@@ -175,9 +196,10 @@ internal class SMAGlobalPatches
 		__result = evt.Range;
 	}
 
+	// RespiracionEngine param removed from ProfundidadToleranciaGetter in SMA 23.1 — only keep __result
 	[HarmonyPatch(typeof(AutoSexRangosDeToleranciaCalculador), "ProfundidadToleranciaGetter")]
 	[HarmonyPostfix]
-	public static void _OnComputeMaxDepth(ref RangeValueV2 __result, IHole hole, ParteQuePuedeEstimular estimulante, FemalePenetracionTipo tipoDePenetracio, DolorPorPenetracion dolorPorPenetracion, PlacerPorPenetraciones placerPorPenetraciones, RespiracionEngine respiracionEngine)
+	public static void _OnComputeMaxDepth(ref RangeValueV2 __result)
 	{
 		UpdateRangeEvent evt = new UpdateRangeEvent();
 		evt.Range = __result;
